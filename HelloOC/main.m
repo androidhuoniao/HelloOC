@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Fraction.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -16,6 +17,13 @@ int main(int argc, const char * argv[]) {
         value2 = 20;
         sum = value1 + value2;
         NSLog(@"%i plus %i is %i", value1,value2, sum);
+        
+        Fraction *fraction = [Fraction new];
+        [fraction setNumerator:1];
+        [fraction setDenomiator:3];
+        [fraction print];
+        
+        
     }
     return 0;
 }
