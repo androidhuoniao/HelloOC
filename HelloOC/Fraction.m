@@ -22,4 +22,7 @@
 - (void)setDenomiator:(int)m{
     denoimator = m;
 }
+- (int)getNumberator{
+    return numberator;
+}
 @end

@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -19,9 +20,18 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%i plus %i is %i", value1,value2, sum);
         
         Fraction *fraction = [Fraction new];
+    
         [fraction setNumerator:1];
         [fraction setDenomiator:3];
         [fraction print];
+        
+        [fraction setAge:1];
+        NSLog(@"age is %i ",[fraction age]);
+        
+        Person *person =[Person new];
+        [person setName:@"grass" AndAge:28];
+        person.toString;
+        
         
         
     }

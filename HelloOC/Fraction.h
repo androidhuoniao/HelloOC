@@ -10,9 +10,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Fraction : NSObject
+@property int age;
 - (void) print;
 - (void) setNumerator:(int)n;
 - (void) setDenomiator:(int)m;
+- (int) getNumberator;
 @end
 
 NS_ASSUME_NONNULL_END
