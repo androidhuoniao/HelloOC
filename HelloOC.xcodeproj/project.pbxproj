@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1FFA302556A142008B5CD1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA2F2556A142008B5CD1 /* Man.m */; };
+		0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA332556A14C008B5CD1 /* Woman.m */; };
+		0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA3C25579986008B5CD1 /* Person+Relations.m */; };
 		0C661E7325564B1B002BDB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7225564B1B002BDB7B /* main.m */; };
 		0C661E7C2556894F002BDB7B /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7B2556894F002BDB7B /* Fraction.m */; };
 		0C661E842556955F002BDB7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E832556955F002BDB7B /* Person.m */; };
@@ -25,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C1FFA2E2556A142008B5CD1 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		0C1FFA2F2556A142008B5CD1 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		0C1FFA322556A14C008B5CD1 /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		0C1FFA332556A14C008B5CD1 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		0C1FFA3B25579986008B5CD1 /* Person+Relations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Relations.h"; sourceTree = "<group>"; };
+		0C1FFA3C25579986008B5CD1 /* Person+Relations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Relations.m"; sourceTree = "<group>"; };
 		0C661E6F25564B1B002BDB7B /* HelloOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C661E7225564B1B002BDB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C661E7A2556894F002BDB7B /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
@@ -68,6 +77,12 @@
 				0C661E7B2556894F002BDB7B /* Fraction.m */,
 				0C661E822556955F002BDB7B /* Person.h */,
 				0C661E832556955F002BDB7B /* Person.m */,
+				0C1FFA2E2556A142008B5CD1 /* Man.h */,
+				0C1FFA2F2556A142008B5CD1 /* Man.m */,
+				0C1FFA322556A14C008B5CD1 /* Woman.h */,
+				0C1FFA332556A14C008B5CD1 /* Woman.m */,
+				0C1FFA3B25579986008B5CD1 /* Person+Relations.h */,
+				0C1FFA3C25579986008B5CD1 /* Person+Relations.m */,
 			);
 			path = HelloOC;
 			sourceTree = "<group>";
@@ -128,9 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1FFA302556A142008B5CD1 /* Man.m in Sources */,
 				0C661E842556955F002BDB7B /* Person.m in Sources */,
+				0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */,
 				0C661E7325564B1B002BDB7B /* main.m in Sources */,
 				0C661E7C2556894F002BDB7B /* Fraction.m in Sources */,
+				0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

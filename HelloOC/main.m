@@ -8,6 +8,9 @@
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
 #import "Person.h"
+#import "Man.h"
+#import "Woman.h"
+#import "Person+Relations.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -32,7 +35,28 @@ int main(int argc, const char * argv[]) {
         [person setName:@"grass" AndAge:28];
         person.toString;
         
+        person =[Man new];
+        person.yourSex;
         
+        person =[Woman new];
+        person.yourSex;
+        
+        Man * man =[Man new];
+        if ([man conformsToProtocol:@protocol(PersonBehaivor)] == YES) {
+            NSLog(@"Man has protocol PersonBehavior ");
+        }
+
+        Person* addItem = [Person new];
+        [addItem setName:@"honey" AndAge:@20];
+        
+        Person* addItem2 = [Person new];
+        [addItem2 setName:@"yuzhi" AndAge:@3];
+        
+        [person addFriend:addItem];
+        [person addFriend:addItem2];
+        
+        [person sayHelloToAllFriends];
+
         
     }
     return 0;
