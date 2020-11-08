@@ -11,6 +11,7 @@
 #import "Man.h"
 #import "Woman.h"
 #import "Person+Relations.h"
+#import "DemoMain.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -56,6 +57,9 @@ int main(int argc, const char * argv[]) {
         [person addFriend:addItem2];
         
         [person sayHelloToAllFriends];
+        
+        
+        [DemoMain helloExtensions];
 
         
     }

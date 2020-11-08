@@ -10,6 +10,8 @@
 		0C1FFA302556A142008B5CD1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA2F2556A142008B5CD1 /* Man.m */; };
 		0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA332556A14C008B5CD1 /* Woman.m */; };
 		0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA3C25579986008B5CD1 /* Person+Relations.m */; };
+		0C1FFA422557A7DD008B5CD1 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA412557A7DD008B5CD1 /* Ship.m */; };
+		0C1FFA472557A9C5008B5CD1 /* DemoMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA462557A9C5008B5CD1 /* DemoMain.m */; };
 		0C661E7325564B1B002BDB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7225564B1B002BDB7B /* main.m */; };
 		0C661E7C2556894F002BDB7B /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7B2556894F002BDB7B /* Fraction.m */; };
 		0C661E842556955F002BDB7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E832556955F002BDB7B /* Person.m */; };
@@ -34,6 +36,10 @@
 		0C1FFA332556A14C008B5CD1 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
 		0C1FFA3B25579986008B5CD1 /* Person+Relations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Relations.h"; sourceTree = "<group>"; };
 		0C1FFA3C25579986008B5CD1 /* Person+Relations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Relations.m"; sourceTree = "<group>"; };
+		0C1FFA402557A7DD008B5CD1 /* Ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		0C1FFA412557A7DD008B5CD1 /* Ship.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		0C1FFA452557A9C5008B5CD1 /* DemoMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoMain.h; sourceTree = "<group>"; };
+		0C1FFA462557A9C5008B5CD1 /* DemoMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMain.m; sourceTree = "<group>"; };
 		0C661E6F25564B1B002BDB7B /* HelloOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C661E7225564B1B002BDB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C661E7A2556894F002BDB7B /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
@@ -53,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1FFA3F2557A7C0008B5CD1 /* ship */ = {
+			isa = PBXGroup;
+			children = (
+				0C1FFA402557A7DD008B5CD1 /* Ship.h */,
+				0C1FFA412557A7DD008B5CD1 /* Ship.m */,
+			);
+			path = ship;
+			sourceTree = "<group>";
+		};
 		0C661E6625564B1A002BDB7B = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +87,7 @@
 		0C661E7125564B1B002BDB7B /* HelloOC */ = {
 			isa = PBXGroup;
 			children = (
+				0C1FFA3F2557A7C0008B5CD1 /* ship */,
 				0C661E7225564B1B002BDB7B /* main.m */,
 				0C661E7A2556894F002BDB7B /* Fraction.h */,
 				0C661E7B2556894F002BDB7B /* Fraction.m */,
@@ -83,6 +99,8 @@
 				0C1FFA332556A14C008B5CD1 /* Woman.m */,
 				0C1FFA3B25579986008B5CD1 /* Person+Relations.h */,
 				0C1FFA3C25579986008B5CD1 /* Person+Relations.m */,
+				0C1FFA452557A9C5008B5CD1 /* DemoMain.h */,
+				0C1FFA462557A9C5008B5CD1 /* DemoMain.m */,
 			);
 			path = HelloOC;
 			sourceTree = "<group>";
@@ -148,7 +166,9 @@
 				0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */,
 				0C661E7325564B1B002BDB7B /* main.m in Sources */,
 				0C661E7C2556894F002BDB7B /* Fraction.m in Sources */,
+				0C1FFA422557A7DD008B5CD1 /* Ship.m in Sources */,
 				0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */,
+				0C1FFA472557A9C5008B5CD1 /* DemoMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
