@@ -16,7 +16,6 @@
     Ship *ship = [Ship new];
     [ship initWithCaption:caption];
     NSLog(@"ship is %@",ship);
-    
 
 }
 @end

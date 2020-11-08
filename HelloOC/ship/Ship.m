@@ -11,6 +11,7 @@
  
 @property (strong, readwrite) Person *captain;
  
+-(void) testPrivateMethod;
 @end
 
 @implementation Ship
@@ -23,8 +24,12 @@
     return self;
 }
 
-- (NSString *)description
-{
+- (NSString *)description{
+    [self testPrivateMethod];
     return [NSString stringWithFormat:@"caption is %@", self.captain.name];
+}
+
+- (void)testPrivateMethod{
+    NSLog(@"testPrivateMethod is working");
 }
 @end
