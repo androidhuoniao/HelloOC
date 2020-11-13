@@ -20,6 +20,7 @@
 		A4DEF4B9255E5DB00076D5D1 /* ComponentOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4B8255E5DB00076D5D1 /* ComponentOne.m */; };
 		A4DEF4BD255E5E0F0076D5D1 /* ComponentTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4BC255E5E0F0076D5D1 /* ComponentTwo.m */; };
 		A4DEF4C1255E5E7A0076D5D1 /* Controler.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4C0255E5E7A0076D5D1 /* Controler.m */; };
+		A4DEF4C7255E7A1E0076D5D1 /* HelloBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4C6255E7A1E0076D5D1 /* HelloBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		A4DEF4BC255E5E0F0076D5D1 /* ComponentTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentTwo.m; sourceTree = "<group>"; };
 		A4DEF4BF255E5E7A0076D5D1 /* Controler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controler.h; sourceTree = "<group>"; };
 		A4DEF4C0255E5E7A0076D5D1 /* Controler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controler.m; sourceTree = "<group>"; };
+		A4DEF4C5255E7A1E0076D5D1 /* HelloBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloBlock.h; sourceTree = "<group>"; };
+		A4DEF4C6255E7A1E0076D5D1 /* HelloBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 		0C661E7125564B1B002BDB7B /* HelloOC */ = {
 			isa = PBXGroup;
 			children = (
+				A4DEF4C4255E79C30076D5D1 /* block */,
 				A4DEF4AC255E30710076D5D1 /* helloSelector */,
 				A4928FD5255D153B00D82EF3 /* hellonil */,
 				0C1FFA3F2557A7C0008B5CD1 /* ship */,
@@ -152,6 +156,15 @@
 				A4DEF4C0255E5E7A0076D5D1 /* Controler.m */,
 			);
 			path = selector1;
+			sourceTree = "<group>";
+		};
+		A4DEF4C4255E79C30076D5D1 /* block */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF4C5255E7A1E0076D5D1 /* HelloBlock.h */,
+				A4DEF4C6255E7A1E0076D5D1 /* HelloBlock.m */,
+			);
+			path = block;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				A4DEF4C1255E5E7A0076D5D1 /* Controler.m in Sources */,
 				0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */,
 				0C1FFA472557A9C5008B5CD1 /* DemoMain.m in Sources */,
+				A4DEF4C7255E7A1E0076D5D1 /* HelloBlock.m in Sources */,
 				A4928FDD255D169600D82EF3 /* PersonFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

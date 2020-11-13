@@ -14,6 +14,7 @@
 #import "DemoMain.h"
 #import "HelloNil.h"
 #import "Controler.h"
+#import "HelloBlock.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -66,6 +67,8 @@ int main(int argc, const char * argv[]) {
         [HelloNil testNil];
         
         Controler *controller = [[Controler alloc] init];
+        HelloBlock *block = [[HelloBlock alloc] init];
+        [block startTest];
         
     }
     return 0;
