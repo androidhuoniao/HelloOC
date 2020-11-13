@@ -13,6 +13,8 @@
 -(void) blocktest4;
 -(void) blocktest5;
 -(void) blocktest6;
+// 使用块作为函数参数
+-(void) blockParameter:(int(^)(int a,intb))block;
 @end
 
 @implementation HelloBlock
@@ -126,6 +128,10 @@
     int c = sum(10, 10);
     
     NSLog(@"%i",c);
+}
+
+- (void)blockParameter:(int (^)(int, int))block{
+    block(1,2);
 }
 
 - (int)bianliArray:(const char *)str_char{
