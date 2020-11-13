@@ -15,6 +15,11 @@
 		0C661E7325564B1B002BDB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7225564B1B002BDB7B /* main.m */; };
 		0C661E7C2556894F002BDB7B /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7B2556894F002BDB7B /* Fraction.m */; };
 		0C661E842556955F002BDB7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E832556955F002BDB7B /* Person.m */; };
+		A4928FD8255D155800D82EF3 /* HelloNil.m in Sources */ = {isa = PBXBuildFile; fileRef = A4928FD7255D155800D82EF3 /* HelloNil.m */; };
+		A4928FDD255D169600D82EF3 /* PersonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4928FDC255D169600D82EF3 /* PersonFactory.m */; };
+		A4DEF4B9255E5DB00076D5D1 /* ComponentOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4B8255E5DB00076D5D1 /* ComponentOne.m */; };
+		A4DEF4BD255E5E0F0076D5D1 /* ComponentTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4BC255E5E0F0076D5D1 /* ComponentTwo.m */; };
+		A4DEF4C1255E5E7A0076D5D1 /* Controler.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4C0255E5E7A0076D5D1 /* Controler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +51,16 @@
 		0C661E7B2556894F002BDB7B /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		0C661E822556955F002BDB7B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0C661E832556955F002BDB7B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A4928FD6255D155800D82EF3 /* HelloNil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNil.h; sourceTree = "<group>"; };
+		A4928FD7255D155800D82EF3 /* HelloNil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNil.m; sourceTree = "<group>"; };
+		A4928FDB255D169600D82EF3 /* PersonFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFactory.h; sourceTree = "<group>"; };
+		A4928FDC255D169600D82EF3 /* PersonFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFactory.m; sourceTree = "<group>"; };
+		A4DEF4B7255E5DB00076D5D1 /* ComponentOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentOne.h; sourceTree = "<group>"; };
+		A4DEF4B8255E5DB00076D5D1 /* ComponentOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentOne.m; sourceTree = "<group>"; };
+		A4DEF4BB255E5E0F0076D5D1 /* ComponentTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentTwo.h; sourceTree = "<group>"; };
+		A4DEF4BC255E5E0F0076D5D1 /* ComponentTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentTwo.m; sourceTree = "<group>"; };
+		A4DEF4BF255E5E7A0076D5D1 /* Controler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controler.h; sourceTree = "<group>"; };
+		A4DEF4C0255E5E7A0076D5D1 /* Controler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +102,8 @@
 		0C661E7125564B1B002BDB7B /* HelloOC */ = {
 			isa = PBXGroup;
 			children = (
+				A4DEF4AC255E30710076D5D1 /* helloSelector */,
+				A4928FD5255D153B00D82EF3 /* hellonil */,
 				0C1FFA3F2557A7C0008B5CD1 /* ship */,
 				0C661E7225564B1B002BDB7B /* main.m */,
 				0C661E7A2556894F002BDB7B /* Fraction.h */,
@@ -101,8 +118,40 @@
 				0C1FFA3C25579986008B5CD1 /* Person+Relations.m */,
 				0C1FFA452557A9C5008B5CD1 /* DemoMain.h */,
 				0C1FFA462557A9C5008B5CD1 /* DemoMain.m */,
+				A4928FDB255D169600D82EF3 /* PersonFactory.h */,
+				A4928FDC255D169600D82EF3 /* PersonFactory.m */,
 			);
 			path = HelloOC;
+			sourceTree = "<group>";
+		};
+		A4928FD5255D153B00D82EF3 /* hellonil */ = {
+			isa = PBXGroup;
+			children = (
+				A4928FD6255D155800D82EF3 /* HelloNil.h */,
+				A4928FD7255D155800D82EF3 /* HelloNil.m */,
+			);
+			path = hellonil;
+			sourceTree = "<group>";
+		};
+		A4DEF4AC255E30710076D5D1 /* helloSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF4B6255E5D9E0076D5D1 /* selector1 */,
+			);
+			path = helloSelector;
+			sourceTree = "<group>";
+		};
+		A4DEF4B6255E5D9E0076D5D1 /* selector1 */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF4B7255E5DB00076D5D1 /* ComponentOne.h */,
+				A4DEF4B8255E5DB00076D5D1 /* ComponentOne.m */,
+				A4DEF4BB255E5E0F0076D5D1 /* ComponentTwo.h */,
+				A4DEF4BC255E5E0F0076D5D1 /* ComponentTwo.m */,
+				A4DEF4BF255E5E7A0076D5D1 /* Controler.h */,
+				A4DEF4C0255E5E7A0076D5D1 /* Controler.m */,
+			);
+			path = selector1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,12 +212,17 @@
 			files = (
 				0C1FFA302556A142008B5CD1 /* Man.m in Sources */,
 				0C661E842556955F002BDB7B /* Person.m in Sources */,
+				A4DEF4BD255E5E0F0076D5D1 /* ComponentTwo.m in Sources */,
+				A4928FD8255D155800D82EF3 /* HelloNil.m in Sources */,
 				0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */,
 				0C661E7325564B1B002BDB7B /* main.m in Sources */,
 				0C661E7C2556894F002BDB7B /* Fraction.m in Sources */,
+				A4DEF4B9255E5DB00076D5D1 /* ComponentOne.m in Sources */,
 				0C1FFA422557A7DD008B5CD1 /* Ship.m in Sources */,
+				A4DEF4C1255E5E7A0076D5D1 /* Controler.m in Sources */,
 				0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */,
 				0C1FFA472557A9C5008B5CD1 /* DemoMain.m in Sources */,
+				A4928FDD255D169600D82EF3 /* PersonFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

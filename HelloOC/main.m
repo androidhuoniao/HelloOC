@@ -12,6 +12,8 @@
 #import "Woman.h"
 #import "Person+Relations.h"
 #import "DemoMain.h"
+#import "HelloNil.h"
+#import "Controler.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -56,11 +58,14 @@ int main(int argc, const char * argv[]) {
         [person addFriend:addItem];
         [person addFriend:addItem2];
         
-        [person sayHelloToAllFriends];
+//        [person sayHelloToAllFriends];
         
         
-        [DemoMain helloExtensions];
-
+//        [DemoMain helloExtensions];
+        
+        [HelloNil testNil];
+        
+        Controler *controller = [[Controler alloc] init];
         
     }
     return 0;
