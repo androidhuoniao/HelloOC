@@ -62,13 +62,16 @@ int main(int argc, const char * argv[]) {
 //        [person sayHelloToAllFriends];
         
         
-//        [DemoMain helloExtensions];
+     
         
         [HelloNil testNil];
         
         Controler *controller = [[Controler alloc] init];
         HelloBlock *block = [[HelloBlock alloc] init];
         [block startTest];
+        
+        [DemoMain helloExternKeyWord];
+        [DemoMain helloStaticKeyWord];
         
     }
     return 0;

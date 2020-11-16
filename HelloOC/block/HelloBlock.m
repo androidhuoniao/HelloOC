@@ -14,7 +14,7 @@
 -(void) blocktest5;
 -(void) blocktest6;
 // 使用块作为函数参数
--(void) blockParameter:(int(^)(int a,intb))block;
+-(void) blockParameter:(int(^)(int a,int b))block;
 @end
 
 @implementation HelloBlock
@@ -128,6 +128,7 @@
     int c = sum(10, 10);
     
     NSLog(@"%i",c);
+    
 }
 
 - (void)blockParameter:(int (^)(int, int))block{

@@ -21,6 +21,8 @@
 		A4DEF4BD255E5E0F0076D5D1 /* ComponentTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4BC255E5E0F0076D5D1 /* ComponentTwo.m */; };
 		A4DEF4C1255E5E7A0076D5D1 /* Controler.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4C0255E5E7A0076D5D1 /* Controler.m */; };
 		A4DEF4C7255E7A1E0076D5D1 /* HelloBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4C6255E7A1E0076D5D1 /* HelloBlock.m */; };
+		A4DEF4CB2562570E0076D5D1 /* HelloExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4CA2562570E0076D5D1 /* HelloExtern.m */; };
+		A4DEF4D125625FC50076D5D1 /* HelloStaticKeyword.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4D025625FC50076D5D1 /* HelloStaticKeyword.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +66,10 @@
 		A4DEF4C0255E5E7A0076D5D1 /* Controler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controler.m; sourceTree = "<group>"; };
 		A4DEF4C5255E7A1E0076D5D1 /* HelloBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloBlock.h; sourceTree = "<group>"; };
 		A4DEF4C6255E7A1E0076D5D1 /* HelloBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloBlock.m; sourceTree = "<group>"; };
+		A4DEF4C92562570E0076D5D1 /* HelloExtern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloExtern.h; sourceTree = "<group>"; };
+		A4DEF4CA2562570E0076D5D1 /* HelloExtern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloExtern.m; sourceTree = "<group>"; };
+		A4DEF4CF25625FC50076D5D1 /* HelloStaticKeyword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloStaticKeyword.h; sourceTree = "<group>"; };
+		A4DEF4D025625FC50076D5D1 /* HelloStaticKeyword.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloStaticKeyword.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 		0C661E7125564B1B002BDB7B /* HelloOC */ = {
 			isa = PBXGroup;
 			children = (
+				A4DEF4CD2562571C0076D5D1 /* keywords */,
 				A4DEF4C4255E79C30076D5D1 /* block */,
 				A4DEF4AC255E30710076D5D1 /* helloSelector */,
 				A4928FD5255D153B00D82EF3 /* hellonil */,
@@ -167,6 +174,17 @@
 			path = block;
 			sourceTree = "<group>";
 		};
+		A4DEF4CD2562571C0076D5D1 /* keywords */ = {
+			isa = PBXGroup;
+			children = (
+				A4DEF4C92562570E0076D5D1 /* HelloExtern.h */,
+				A4DEF4CA2562570E0076D5D1 /* HelloExtern.m */,
+				A4DEF4CF25625FC50076D5D1 /* HelloStaticKeyword.h */,
+				A4DEF4D025625FC50076D5D1 /* HelloStaticKeyword.m */,
+			);
+			path = keywords;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,10 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DEF4D125625FC50076D5D1 /* HelloStaticKeyword.m in Sources */,
 				0C1FFA302556A142008B5CD1 /* Man.m in Sources */,
 				0C661E842556955F002BDB7B /* Person.m in Sources */,
 				A4DEF4BD255E5E0F0076D5D1 /* ComponentTwo.m in Sources */,
 				A4928FD8255D155800D82EF3 /* HelloNil.m in Sources */,
+				A4DEF4CB2562570E0076D5D1 /* HelloExtern.m in Sources */,
 				0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */,
 				0C661E7325564B1B002BDB7B /* main.m in Sources */,
 				0C661E7C2556894F002BDB7B /* Fraction.m in Sources */,
