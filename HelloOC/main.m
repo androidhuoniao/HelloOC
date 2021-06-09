@@ -19,6 +19,7 @@
 #import "HelloNSDict.h"
 #import "HelloNSString.h"
 #import "HelloSingleton.h"
+#import "HelloRuntime.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -82,6 +83,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"singleton1 pointer is %p", &singleton1);
         NSLog(@"singleton2 pointer is %p", &singleton2);
         
+        [HelloRuntime run];
     }
     return 0;
 }

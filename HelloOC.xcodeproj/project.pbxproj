@@ -24,6 +24,7 @@
 		A426A354266E41420045067B /* Card+Local.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A353266E41420045067B /* Card+Local.m */; };
 		A426A358266E41650045067B /* Card+Public.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A357266E41650045067B /* Card+Public.m */; };
 		A426A35C266E42220045067B /* CardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A35B266E42220045067B /* CardTest.m */; };
+		A42EE36A2670E39600E3CE17 /* HelloRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EE3692670E39600E3CE17 /* HelloRuntime.m */; };
 		A4928FD8255D155800D82EF3 /* HelloNil.m in Sources */ = {isa = PBXBuildFile; fileRef = A4928FD7255D155800D82EF3 /* HelloNil.m */; };
 		A4928FDD255D169600D82EF3 /* PersonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4928FDC255D169600D82EF3 /* PersonFactory.m */; };
 		A4DEF4B9255E5DB00076D5D1 /* ComponentOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4B8255E5DB00076D5D1 /* ComponentOne.m */; };
@@ -81,6 +82,8 @@
 		A426A357266E41650045067B /* Card+Public.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Card+Public.m"; sourceTree = "<group>"; };
 		A426A35A266E42220045067B /* CardTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTest.h; sourceTree = "<group>"; };
 		A426A35B266E42220045067B /* CardTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTest.m; sourceTree = "<group>"; };
+		A42EE3682670E39600E3CE17 /* HelloRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloRuntime.h; sourceTree = "<group>"; };
+		A42EE3692670E39600E3CE17 /* HelloRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloRuntime.m; sourceTree = "<group>"; };
 		A4928FD6255D155800D82EF3 /* HelloNil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNil.h; sourceTree = "<group>"; };
 		A4928FD7255D155800D82EF3 /* HelloNil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNil.m; sourceTree = "<group>"; };
 		A4928FDB255D169600D82EF3 /* PersonFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFactory.h; sourceTree = "<group>"; };
@@ -138,6 +141,7 @@
 		0C661E7125564B1B002BDB7B /* HelloOC */ = {
 			isa = PBXGroup;
 			children = (
+				A42EE3672670E33700E3CE17 /* runtime */,
 				A426A342266E400C0045067B /* category */,
 				A426A0FE26676CFA0045067B /* base */,
 				A426A0F126676AEB0045067B /* api */,
@@ -203,6 +207,15 @@
 				A426A35B266E42220045067B /* CardTest.m */,
 			);
 			path = category;
+			sourceTree = "<group>";
+		};
+		A42EE3672670E33700E3CE17 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				A42EE3682670E39600E3CE17 /* HelloRuntime.h */,
+				A42EE3692670E39600E3CE17 /* HelloRuntime.m */,
+			);
+			path = runtime;
 			sourceTree = "<group>";
 		};
 		A4928FD5255D153B00D82EF3 /* hellonil */ = {
@@ -321,6 +334,7 @@
 				A4DEF4D125625FC50076D5D1 /* HelloStaticKeyword.m in Sources */,
 				A426A0FC26676CE20045067B /* HelloNSString.m in Sources */,
 				A426A35C266E42220045067B /* CardTest.m in Sources */,
+				A42EE36A2670E39600E3CE17 /* HelloRuntime.m in Sources */,
 				A426A354266E41420045067B /* Card+Local.m in Sources */,
 				0C1FFA302556A142008B5CD1 /* Man.m in Sources */,
 				A426A2972669C1E70045067B /* HelloSingleton.m in Sources */,
