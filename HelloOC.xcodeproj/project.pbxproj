@@ -15,6 +15,15 @@
 		0C661E7325564B1B002BDB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7225564B1B002BDB7B /* main.m */; };
 		0C661E7C2556894F002BDB7B /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E7B2556894F002BDB7B /* Fraction.m */; };
 		0C661E842556955F002BDB7B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C661E832556955F002BDB7B /* Person.m */; };
+		A426A0F426676B1D0045067B /* HelloNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A0F326676B1D0045067B /* HelloNSArray.m */; };
+		A426A0F826676B3A0045067B /* HelloNSDict.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A0F726676B3A0045067B /* HelloNSDict.m */; };
+		A426A0FC26676CE20045067B /* HelloNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A0FB26676CE20045067B /* HelloNSString.m */; };
+		A426A10126676D120045067B /* HelloCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A10026676D120045067B /* HelloCase.m */; };
+		A426A2972669C1E70045067B /* HelloSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A2962669C1E70045067B /* HelloSingleton.m */; };
+		A426A345266E40270045067B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A344266E40260045067B /* Card.m */; };
+		A426A354266E41420045067B /* Card+Local.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A353266E41420045067B /* Card+Local.m */; };
+		A426A358266E41650045067B /* Card+Public.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A357266E41650045067B /* Card+Public.m */; };
+		A426A35C266E42220045067B /* CardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A426A35B266E42220045067B /* CardTest.m */; };
 		A4928FD8255D155800D82EF3 /* HelloNil.m in Sources */ = {isa = PBXBuildFile; fileRef = A4928FD7255D155800D82EF3 /* HelloNil.m */; };
 		A4928FDD255D169600D82EF3 /* PersonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4928FDC255D169600D82EF3 /* PersonFactory.m */; };
 		A4DEF4B9255E5DB00076D5D1 /* ComponentOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DEF4B8255E5DB00076D5D1 /* ComponentOne.m */; };
@@ -54,6 +63,24 @@
 		0C661E7B2556894F002BDB7B /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		0C661E822556955F002BDB7B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0C661E832556955F002BDB7B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A426A0F226676B1D0045067B /* HelloNSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNSArray.h; sourceTree = "<group>"; };
+		A426A0F326676B1D0045067B /* HelloNSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNSArray.m; sourceTree = "<group>"; };
+		A426A0F626676B3A0045067B /* HelloNSDict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNSDict.h; sourceTree = "<group>"; };
+		A426A0F726676B3A0045067B /* HelloNSDict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNSDict.m; sourceTree = "<group>"; };
+		A426A0FA26676CE20045067B /* HelloNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNSString.h; sourceTree = "<group>"; };
+		A426A0FB26676CE20045067B /* HelloNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNSString.m; sourceTree = "<group>"; };
+		A426A0FF26676D120045067B /* HelloCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloCase.h; sourceTree = "<group>"; };
+		A426A10026676D120045067B /* HelloCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCase.m; sourceTree = "<group>"; };
+		A426A2952669C1E70045067B /* HelloSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloSingleton.h; sourceTree = "<group>"; };
+		A426A2962669C1E70045067B /* HelloSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSingleton.m; sourceTree = "<group>"; };
+		A426A343266E40260045067B /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A426A344266E40260045067B /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		A426A352266E41420045067B /* Card+Local.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Card+Local.h"; sourceTree = "<group>"; };
+		A426A353266E41420045067B /* Card+Local.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Card+Local.m"; sourceTree = "<group>"; };
+		A426A356266E41650045067B /* Card+Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Card+Public.h"; sourceTree = "<group>"; };
+		A426A357266E41650045067B /* Card+Public.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Card+Public.m"; sourceTree = "<group>"; };
+		A426A35A266E42220045067B /* CardTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTest.h; sourceTree = "<group>"; };
+		A426A35B266E42220045067B /* CardTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTest.m; sourceTree = "<group>"; };
 		A4928FD6255D155800D82EF3 /* HelloNil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNil.h; sourceTree = "<group>"; };
 		A4928FD7255D155800D82EF3 /* HelloNil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNil.m; sourceTree = "<group>"; };
 		A4928FDB255D169600D82EF3 /* PersonFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFactory.h; sourceTree = "<group>"; };
@@ -111,6 +138,10 @@
 		0C661E7125564B1B002BDB7B /* HelloOC */ = {
 			isa = PBXGroup;
 			children = (
+				A426A342266E400C0045067B /* category */,
+				A426A0FE26676CFA0045067B /* base */,
+				A426A0F126676AEB0045067B /* api */,
+				A497A814265536D1002DD83E /* extends */,
 				A4DEF4CD2562571C0076D5D1 /* keywords */,
 				A4DEF4C4255E79C30076D5D1 /* block */,
 				A4DEF4AC255E30710076D5D1 /* helloSelector */,
@@ -135,6 +166,45 @@
 			path = HelloOC;
 			sourceTree = "<group>";
 		};
+		A426A0F126676AEB0045067B /* api */ = {
+			isa = PBXGroup;
+			children = (
+				A426A0F226676B1D0045067B /* HelloNSArray.h */,
+				A426A0F326676B1D0045067B /* HelloNSArray.m */,
+				A426A0F626676B3A0045067B /* HelloNSDict.h */,
+				A426A0F726676B3A0045067B /* HelloNSDict.m */,
+				A426A0FA26676CE20045067B /* HelloNSString.h */,
+				A426A0FB26676CE20045067B /* HelloNSString.m */,
+				A426A2952669C1E70045067B /* HelloSingleton.h */,
+				A426A2962669C1E70045067B /* HelloSingleton.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		A426A0FE26676CFA0045067B /* base */ = {
+			isa = PBXGroup;
+			children = (
+				A426A0FF26676D120045067B /* HelloCase.h */,
+				A426A10026676D120045067B /* HelloCase.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		A426A342266E400C0045067B /* category */ = {
+			isa = PBXGroup;
+			children = (
+				A426A343266E40260045067B /* Card.h */,
+				A426A344266E40260045067B /* Card.m */,
+				A426A352266E41420045067B /* Card+Local.h */,
+				A426A353266E41420045067B /* Card+Local.m */,
+				A426A356266E41650045067B /* Card+Public.h */,
+				A426A357266E41650045067B /* Card+Public.m */,
+				A426A35A266E42220045067B /* CardTest.h */,
+				A426A35B266E42220045067B /* CardTest.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 		A4928FD5255D153B00D82EF3 /* hellonil */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +212,13 @@
 				A4928FD7255D155800D82EF3 /* HelloNil.m */,
 			);
 			path = hellonil;
+			sourceTree = "<group>";
+		};
+		A497A814265536D1002DD83E /* extends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extends;
 			sourceTree = "<group>";
 		};
 		A4DEF4AC255E30710076D5D1 /* helloSelector */ = {
@@ -242,18 +319,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4DEF4D125625FC50076D5D1 /* HelloStaticKeyword.m in Sources */,
+				A426A0FC26676CE20045067B /* HelloNSString.m in Sources */,
+				A426A35C266E42220045067B /* CardTest.m in Sources */,
+				A426A354266E41420045067B /* Card+Local.m in Sources */,
 				0C1FFA302556A142008B5CD1 /* Man.m in Sources */,
+				A426A2972669C1E70045067B /* HelloSingleton.m in Sources */,
 				0C661E842556955F002BDB7B /* Person.m in Sources */,
 				A4DEF4BD255E5E0F0076D5D1 /* ComponentTwo.m in Sources */,
 				A4928FD8255D155800D82EF3 /* HelloNil.m in Sources */,
+				A426A10126676D120045067B /* HelloCase.m in Sources */,
 				A4DEF4CB2562570E0076D5D1 /* HelloExtern.m in Sources */,
+				A426A345266E40270045067B /* Card.m in Sources */,
 				0C1FFA3D25579986008B5CD1 /* Person+Relations.m in Sources */,
+				A426A358266E41650045067B /* Card+Public.m in Sources */,
 				0C661E7325564B1B002BDB7B /* main.m in Sources */,
 				0C661E7C2556894F002BDB7B /* Fraction.m in Sources */,
+				A426A0F826676B3A0045067B /* HelloNSDict.m in Sources */,
 				A4DEF4B9255E5DB00076D5D1 /* ComponentOne.m in Sources */,
 				0C1FFA422557A7DD008B5CD1 /* Ship.m in Sources */,
 				A4DEF4C1255E5E7A0076D5D1 /* Controler.m in Sources */,
 				0C1FFA342556A14C008B5CD1 /* Woman.m in Sources */,
+				A426A0F426676B1D0045067B /* HelloNSArray.m in Sources */,
 				0C1FFA472557A9C5008B5CD1 /* DemoMain.m in Sources */,
 				A4DEF4C7255E7A1E0076D5D1 /* HelloBlock.m in Sources */,
 				A4928FDD255D169600D82EF3 /* PersonFactory.m in Sources */,
